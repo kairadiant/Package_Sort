@@ -25,9 +25,7 @@ Implement the function **`sort(width, height, length, mass)`** (units are centim
 
 1. Correct Sorting Logic
 
-The implementation uses clear conditional (if/elif/else) logic to prioritize the REJECTED stack first, ensuring that packages that meet both the Heavy and Bulky criteria are correctly categorized. Boundary conditions (e.g., 1,000,000 cm 
-3
-  volume and 20 kg mass) are handled using the correct non-strict inequality (≥).
+The implementation uses clear conditional (if/elif/else) logic to prioritize the REJECTED stack first, ensuring that packages that meet both the Heavy and Bulky criteria are correctly categorized. Boundary conditions (e.g., 1,000,000 cm3 volume and 20 kg mass) are handled using the correct non-strict inequality (≥).
 
 2. Code Quality
 
